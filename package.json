@@ -1,4 +1,12 @@
 {
+  "name": "email-microservice",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diyanah01/Email-microservice/" 
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "@sendgrid/mail": "^7.6.2"
   }
