@@ -1,10 +1,10 @@
 # Email-microservice
 Connecting ecommerce to Sendgrid
 
-Currently working on dockerizing this
+To send email: use function call sendEmail(to, subject, emailContent);
 
-To send email: 
-* sendEmail(to, subject, emailContent);
+Returned information: 
+---
 
 Sengrid account:
 Username - diyanahj.2020@smu.edu.sg
