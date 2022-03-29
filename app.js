@@ -1,11 +1,13 @@
 const sendGridMail = require('@sendgrid/mail')
 const API_KEY = process.env.SENDGRID_API||``
+const EMAIL = process.env.SENDGRID_EMAIL||``
+
 sendGridMail.setApiKey(API_KEY)
 
 function createEmail(to, subject, text){
     return{
         to,
-        from:'esd.team.cs@gmail.com',
+        from:EMAIL,
         subject,
         text,
         html: `<p>${text}</p>`
